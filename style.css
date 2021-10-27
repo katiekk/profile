@@ -7,7 +7,10 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background: linear-gradient(0.35turn, #172238 25%,#f2ead0 70%);
+  /* background-image: url("images/background.jpeg"); */
+  background:linear-gradient(0.35turn, #172238 20%, rgba(0, 0, 0, 0)), url("images/background.jpeg");
+
+  /* background: linear-gradient(0.35turn, #172238 25%,rgba(0,0,0,0.1) 70%); */
   color: #345B63;
   font-size: 16px;
   font-weight: 300;
@@ -38,7 +41,7 @@ h2 {
   width: 960px;
   margin: 40px auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 20px;
   row-gap: 20px;
 }
