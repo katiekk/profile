@@ -7,7 +7,7 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background:linear-gradient(0.35turn, #172238 20%, rgba(0, 0, 0, 0)), url("images/background.jpeg");
+  background:linear-gradient(0.3turn, #172238 20%, rgba(256, 256, 256, 0)) 70%, url("images/background.jpeg");
   color: #345B63;
   font-size: 16px;
   font-weight: 300;
